@@ -4,7 +4,7 @@
   "description": "react-skeleton",
   "main": "index.js",
   "scripts": {
-    "build": "./node_modules/.bin/webpack",
+    "build": "./node_modules/.bin/webpack --config webpack.dist.config.js",
     "watch": "./node_modules/.bin/webpack-dev-server --content-base dist/"
   },
   "keywords": [],
