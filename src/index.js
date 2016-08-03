@@ -1,8 +1,5 @@
 import React from 'react'
 import {render} from 'react-dom'
+import AppComponent from './AppComponent'
 
-var Greeting = function(props) {
-    return (<h1>hello</h1>)
-}
-
-render(<Greeting/>, document.getElementById("app"))
+render(<AppComponent/>, document.getElementById("app"))

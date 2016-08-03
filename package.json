@@ -1,12 +1,13 @@
 {
   "name": "react-skeleton",
   "version": "1.0.0",
-  "description": "react-skeleton",
+  "description": "A skeleton React.js app. Includes webpack, webpack-dev-server, mocha, expect and enzyme.",
+  "repository": "https://github.com/pivotal-tokyo/react-skeleton",
   "main": "index.js",
   "scripts": {
     "build": "./node_modules/.bin/webpack --config webpack.dist.config.js",
     "test": "./node_modules/.bin/mocha --compilers js:babel-core/register",
-    "watch": "./node_modules/.bin/webpack-dev-server --content-base dist/"
+    "watch": "./node_modules/.bin/webpack-dev-server --port 8000 --content-base dist/"
   },
   "keywords": [],
   "author": "",
@@ -16,9 +17,11 @@
     "babel-loader": "^6.2.4",
     "babel-preset-es2015": "^6.9.0",
     "babel-preset-react": "^6.11.1",
+    "enzyme": "^2.4.1",
     "expect": "^1.20.2",
     "html-webpack-plugin": "^2.22.0",
     "mocha": "^2.5.3",
+    "react-addons-test-utils": "^15.3.0",
     "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.1"
   },
