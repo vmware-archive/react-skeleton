@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "build": "./node_modules/.bin/webpack --config webpack.dist.config.js",
-    "test": "./node_modules/.bin/mocha --compilers js:babel-core/register",
+    "test": "./node_modules/.bin/mocha",
     "watch": "./node_modules/.bin/webpack-dev-server --port 8000 --content-base dist/"
   },
   "keywords": [],
@@ -20,6 +20,7 @@
     "enzyme": "^2.4.1",
     "expect": "^1.20.2",
     "html-webpack-plugin": "^2.22.0",
+    "localStorage": "^1.0.3",
     "mocha": "^2.5.3",
     "react-addons-test-utils": "^15.3.0",
     "webpack": "^1.13.1",
